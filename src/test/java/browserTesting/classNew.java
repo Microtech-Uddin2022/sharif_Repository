@@ -14,7 +14,13 @@ public class classNew {
         System.out.println("4th line");
         System.out.println("_________________");
         System.out.println("*****************");
+        System.out.println("I lost everything from this project forever");
+        System.out.println("Allah tumi sobaire hedayet dan koro");
+   
 
+      
+     
+>>>>>>> 9d97d7e4d0bd955d22be2adb3486e6fcd85863ae
 
 
 
