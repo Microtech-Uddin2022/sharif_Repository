@@ -9,7 +9,7 @@ public class classNew {
         System.out.println("sharif------tania-------tasin");
         System.out.println("Bismillahir Rahmanir Rahim");
         System.out.println("Allah tumi sobaire hedayet dan koro");
-        System.out.println("oooooooooooo");
+        System.out.println("oooooooooooouuuuuuuuuuugit ");
         System.out.println("eurutuy");
         System.out.println("4th line");
         System.out.println("_________________");
