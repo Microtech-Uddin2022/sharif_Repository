@@ -5,6 +5,7 @@ public class classNew {
         System.out.println("new class added and one line");
         System.out.println("I lost everything from this project");
         System.out.println("Finally resolved big problem");
+        System.out.println("12345667");
         System.out.println("4th line for branches new class added and one line");
         System.out.println("I lost everything from this project forever");
     }
