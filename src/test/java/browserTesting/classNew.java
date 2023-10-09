@@ -9,7 +9,9 @@ public class classNew {
         System.out.println("I lost everything from this project forever");
         System.out.println("1234566");
         System.out.println("12345660009887");
-        
+        System.out.println("Bismillahir Rahmanir Rahim");
+        System.out.println("Allah tumi sobaire hedayet dan koro");
+
 
     }
 }
