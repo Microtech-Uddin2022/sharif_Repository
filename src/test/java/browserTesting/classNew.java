@@ -13,6 +13,9 @@ public class classNew {
         System.out.println("oooooooooooo");
         System.out.println("eurutuy");
         System.out.println("4th line");
+        System.out.println("_________________");
+        System.out.println("*****************");
+
 
 
 
