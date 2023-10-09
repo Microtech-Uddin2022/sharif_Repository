@@ -8,6 +8,10 @@ public class classNew {
         System.out.println("I lost everything from this project forever");
         System.out.println("Bismillahir Rahmanir Rahim");
         System.out.println("Allah tumi sobaire hedayet dan koro");
+        System.out.println("oooooooooooo");
+        System.out.println("eurutuy");
+        System.out.println("4th line");
+
 
     }
 }
