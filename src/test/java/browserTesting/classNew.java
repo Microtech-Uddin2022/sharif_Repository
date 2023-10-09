@@ -8,7 +8,6 @@ public class classNew {
         System.out.println("I lost everything from this project forever");
       
      
-        System.out.println("Allah tumi sobaire hedayet dan koro");
 
 
     }
