@@ -39,11 +39,11 @@ public class Soft_Assertion {
         Thread.sleep(1000);
 
         System.out.println(" New Line added");
-        System.out.println(" New line changed");
-        System.out.println("Conflict Test");
+         System.out.println("Conflict Test");
         System.out.println("Conflict Tes2");
         System.out.println("Test Second lined Rev");
         System.out.println("Test Third Line Added");
+        System.out.println("4th Line Tested");
 
 
         // testNG Assertion ....Hard
