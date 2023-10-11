@@ -41,8 +41,9 @@ public class Soft_Assertion {
         System.out.println(" New Line added");
         System.out.println(" New line changed");
         System.out.println("Conflict Test");
-        System.out.println("Test Line Revised");
+        System.out.println("Conflict Tes2");
         System.out.println("Test Second lined Rev");
+        System.out.println("Test Third Line Added");
 
 
         // testNG Assertion ....Hard
