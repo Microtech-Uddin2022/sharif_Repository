@@ -43,6 +43,7 @@ public class Soft_Assertion {
         System.out.println("Conflict Tes2");
         System.out.println("Test Second lined Rev");
         System.out.println("Test Third Line Added");
+        System.out.println("Merge Test");
         System.out.println("4th Line Tested");
 
 
