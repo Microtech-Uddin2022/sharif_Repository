@@ -30,7 +30,7 @@ public class classNew {
 
 
 
->>>>>>> 39948af112db8c34f136beffc3efb88c48c482d0
+
 
     }
 }
