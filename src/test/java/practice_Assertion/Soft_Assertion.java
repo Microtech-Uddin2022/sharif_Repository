@@ -37,7 +37,9 @@ public class Soft_Assertion {
         // testNG soft assertion
         soft.assertTrue(driver.getTitle().equals("MicroTech NAi"));// soft.asserAll();
         Thread.sleep(1000);
-        System.out.println("XXXXXXXX");
+        System.out.println(" Line is revised");
+        System.out.println(" New Line added");
+        System.out.println(" New line changed");
 
 
         // testNG Assertion ....Hard
