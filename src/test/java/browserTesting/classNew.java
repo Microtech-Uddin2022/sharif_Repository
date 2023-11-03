@@ -9,5 +9,8 @@ public class classNew {
         System.out.println("Allah tumi sobaire hedayet dan koro");
         System.out.println("Finally resolved big problem");
 
+        System.out.println("Allah tumi sobaire hedayet dan koro");
+        System.out.println("Finally resolved big problem");
+
     }
 }

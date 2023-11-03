@@ -74,7 +74,7 @@ public class Soft_Assertion {
     public static void screenShotName(WebDriver driver, String name) throws IOException {
         File source = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
         // project file
-        FileUtils.copyFile(source,new File("C:\\Java\\workspaceintellij\\windowHandling\\screenShot\\"+name+".png"));
+        FileUtils.copyFile(source,new File(".\\screenShot\\"+name+".png"));
         // computer file
         FileUtils.copyFile(source,new File("C:\\Java\\screenShotIntellij\\"+name+".png"));
     }

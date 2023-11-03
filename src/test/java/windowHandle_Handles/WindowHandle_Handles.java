@@ -11,6 +11,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.Set;
 
 public class WindowHandle_Handles {
@@ -31,7 +32,6 @@ public class WindowHandle_Handles {
 //
 //        System.out.println(wId);
 
-        // String firstWindow = driver.getWindowHandle();
 
         // Search Box X-Path
         driver.findElement(By.xpath("//input[@type='text']")).sendKeys("Samsung S22");
@@ -42,31 +42,39 @@ public class WindowHandle_Handles {
         // Click the first option
         driver.findElement(By.xpath("//span[@class='a-size-medium a-color-base a-text-normal']")).click();
 
-
-
-        // Second Window
-        Set<String> s = driver.getWindowHandles();// changeable that's why make arraylist
+        // ArrayList by collection
+        String firstWindow = driver.getWindowHandle();
+        //Second Window
+        Set<String> s = driver.getWindowHandles();// changeable that's why make Arraylist
         ArrayList ar = new ArrayList<>(s);
 
-        System.out.println("Window0: " + ar.get(0));
-        System.out.println("Window Samsung: " + ar.get(1));
+//        Iterator by collection...
+//        Set<String> windows = driver.getWindowHandles();
+//        Iterator<String> it = windows.iterator();
+//        String firstWindow = driver.getWindowHandle(); // same as parentWindow
+//        String parentWindow = it.next();
+//        String childWindow = it.next();
 
-        driver.switchTo().window((String) ar.get(1));
+        System.out.println("Window0: " + ar.get(0)); // parent window id.
+        System.out.println("Window Samsung: " + ar.get(1)); // child window id.
+
+        //switch window from parent to child (0 to 1)
+        driver.switchTo().window((String) ar.get(1)); // child window id.
 
         // Click add to cart button
         driver.findElement(By.id("add-to-cart-button")).click();
 
-        Thread.sleep(4000);
+        Thread.sleep(2000);
 
         //Actions act = new Actions(driver);
         //act.sendKeys(Keys.ESCAPE).build().perform();
         // driver.findElement(By.className("a-button-input")).click();
 
         // Add to cart in pop up window
-        driver.findElement(By.xpath("//input[@aria-labelledby='attach-sidesheet-view-cart-button-announce']")).click();
+        //driver.findElement(By.xpath("//input[@aria-labelledby='attach-sidesheet-view-cart-button-announce']")).click();
 
-
-
+        // how to handle multiple windows?
+        // when we handle multiple window, we use driver.switchTo()-------->Method
 
         //Switched to Parent Window
         driver.switchTo().window((String) ar.get(0));
@@ -104,7 +112,7 @@ public class WindowHandle_Handles {
         driver.findElement(By.id("add-to-cart-button")).click();
 
         Thread.sleep(2000);
-        //Actions act1 = new Actions(driver);
+
 
         driver.findElement(By.xpath("//input[@aria-labelledby='attach-sidesheet-view-cart-button-announce']")).click();
 
